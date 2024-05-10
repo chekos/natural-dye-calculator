@@ -22,6 +22,9 @@ const tartarTeaspoons = tartaricAcidGramsToTeaspoons(tartaricGrams);
 
 ## Alum Mordant Recipe
 
+<div class="grid grid-cols-2">
+<div>
+
 **Step 1**:
 Weigh the fabric and record it.
 
@@ -98,3 +101,16 @@ After mix is cool, you can remove the fabric from the mix.
 
 **Step 20**:
 Hang wool to air dry.
+
+</div>
+<div class="note" label="Summary">
+
+For <strong>${weightOfFabric} grams of fabric</strong>, you need:
+
+<ul>
+<li>${alumGrams} grams of alum (<strong>${alumTeaspoons} teaspoons</strong> or ${(alumTeaspoons / 3).toFixed(1)} tablespoons).</li>
+
+<li>${tartaricGrams} grams of tartaric acid (<strong>${tartarTeaspoons} teaspoons</strong> or ${(tartarTeaspoons / 3).toFixed(1)} tablespoons).</li>
+</ul>
+
+</div>
